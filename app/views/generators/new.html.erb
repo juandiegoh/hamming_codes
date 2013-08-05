@@ -1,0 +1,15 @@
+<h1>TP Teoria de la comunicacion</h1>
+<h2>Códigos de Hamming</h2>
+<h3>Opción Seleccionada: Crear nuevo Código de Hamming</h3>
+
+<%= form_for :generator, url: generators_path do |f| %>
+  <p>
+    <%= f.label "Mensaje:", :class => "label" %>
+    <%= f.text_field :raw_code, :class => "text" %>
+  </p>
+  <p>
+    <%= f.submit "Generar!", :class => "button" %>
+  </p>
+<% end %>
+
+<p><%= link_to "Menú Principal", controller: "welcome" %></p>

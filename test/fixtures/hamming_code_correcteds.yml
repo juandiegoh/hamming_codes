@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  hamming_code_input: MyString
+  raw_code: MyString
+
+two:
+  hamming_code_input: MyString
+  raw_code: MyString

@@ -1,0 +1,15 @@
+<h1>TP Teoria de la comunicacion</h1>
+<h2>Códigos de Hamming</h2>
+
+<h3>Opción Seleccionada: Obtener Código Hamming Original</h3>
+<%= form_for :fixer, url: fixers_path do |f| %>
+  <p>
+    <%= f.label "Código Hamming:", :class => "label" %>
+    <%= f.text_field :hamming_code_input, :class => "text" %>
+  </p>
+  <p>
+    <%= f.submit "Decodificar!", :class => "button" %>
+  </p>
+<% end %>
+
+<p><%= link_to "Menú Principal", controller: "welcome" %></p>

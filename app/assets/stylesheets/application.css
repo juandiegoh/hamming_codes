@@ -1,0 +1,118 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+body 
+{
+	font: 11px/165% 'Lucida Grande', Verdana, Helvetica, sans-serif;
+	color: #666666; 	
+	margin: 0; padding: 0 0 50px 0; 
+	background: #F6F5F5; 
+}
+
+a:link, a:visited 
+{ 
+	font-size: large;
+	text-decoration: none;
+	color: #AE855C;	
+	margin-left: 100px;
+}
+
+a:hover 
+{
+	border-bottom: 1px dotted #AE855C;	
+}
+
+h1, h2, h3, h4 
+{
+	font: bold 1em/1.5em Georgia, 'Times New Roman', Times, serif;
+	color: #444;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 0px 5px 7px 5px;
+	text-align: center;
+}
+
+h1 { font-size: 3.7em; font-weight: normal; letter-spacing: -2px; color: #663333; }
+h2 { font-size: 2.8em; font-weight: normal; color: #663333; }
+h3 
+{ 
+	text-align: left;
+	font-size: 2em; 
+	font-weight: bold; 
+	letter-spacing: -0.5px; 
+	padding-top: 15px
+}
+
+h4 
+{ 
+	font-size: 1.3em; 
+	text-align: left;
+	margin-left: 100px;
+	margin-bottom: 25px;
+	margin-top: 10px;
+	color: #669900;
+}
+
+form 
+{
+	margin: 10px; 
+	padding: 15px 25px 25px 20px; 
+	border: 1px solid #F0F0F0;
+	background: #f8f8f8;
+}
+
+form p 
+{
+	border-bottom: 1px solid #E6E6E6;
+	padding: 12px 0 5px 0;	margin: 0;	
+	color: #7BA857;
+}
+
+label 
+{
+	font-weight: bold;
+	color: #7BA857;
+	margin-left: 70px;
+}
+
+input, select, textarea 
+{
+	margin: 5px 0;
+	padding: 5px;
+	color: #6A6969;
+	border-width: 1px;
+	border-style: solid;
+  	border-color: #d4d4d4 #ebebeb #ebebeb #d4d4d4; 	
+	font: 11px 'Lucida Grande', Verdana, Helvetica, sans-serif;
+}
+
+input:focus, select:focus, textarea:focus 
+{
+	color: #7BA857;
+	background: #EFFAE6;
+}
+
+input.button 
+{ 
+	font: bold 16px Arial, Sans-serif; 
+	height: 30px;
+	margin: 0px 0px 0px 70px;
+	padding: 2px 3px; 
+	color: #fff;
+	background: #9CCF5F;
+	
+	border-width: 1px;
+  	border-style: solid;
+  	border-color: #B6DE8F #8DB836 #8DB836 #B6DE8F;
+}
